@@ -1,7 +1,7 @@
 require_relative 'coin'
 require 'pry'
 
-two_pound = Coin.new("Two Pound coin",200, 0)
+two_pound = Coin.new("Two Pound coin",200, 1)
 one_pound = Coin.new("One Pound coin",100, 0)
 fifty_pence = Coin.new("50p piece", 50, 10)
 twenty_pence = Coin.new("20p piece", 20, 10)
